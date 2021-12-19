@@ -9,9 +9,9 @@
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(num, pin, NEO_GRB + NEO_KHZ800);
 
-char auth[] = "zd382W2IcAo2IDo5XGa3RSlWATOp4PoM";
-char ssid[] = "Sawojajar";
-char pass[] = "Nokia3315";
+char auth[] = ""; //auth token from blynk
+char ssid[] = ""; //your wifi name
+char pass[] = ""; //your wifi password
 int i, r, g, b;
 
 void statis(int r,int g,int b)

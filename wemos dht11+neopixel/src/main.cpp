@@ -14,10 +14,10 @@
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(num, pin, NEO_GRB + NEO_KHZ800);
 
-char auth[] = "gq6GMDO84zOqncx7pahAbByxzLpHNsYT";
-char ssid[] = "Sawojajar";
-char pass[] = "Nokia3315";
-char server[] = "192.168.1.101";
+char auth[] = ""; //auth token from blynk
+char ssid[] = ""; //your wifi name
+char pass[] = ""; //your wifi password
+char server[] = "192.168.1.101"; //this time I host a local blynk server, delete if you aren't
 int i, r, g, b;
 float h, t;
 bool l, data;

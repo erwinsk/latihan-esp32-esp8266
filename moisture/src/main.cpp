@@ -4,9 +4,9 @@
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 
-char auth[] = "pbPzhwdJOkLgDlOzK_kogFIiqdUfiyvb";
-char ssid[] = "Sawojajar";
-char pass[] = "Nokia3315";
+char auth[] = ""; //auth token from blynk
+char ssid[] = ""; //your wifi name
+char pass[] = ""; //your wifi password
 int sensorPin = 34;
 int sensorValue = 0;
 int humidity = 0;
